@@ -5,7 +5,7 @@ import { differenceInDays, parseISO } from "date-fns";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-
+  
 
 const FINE_PER_DAY = 50; 
 

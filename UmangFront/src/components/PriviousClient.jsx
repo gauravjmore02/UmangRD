@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Table, Container, Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-
+  
 const PriviousClient = () => {
   const [clients, setClients] = useState([]);
   const [expandedRow, setExpandedRow] = useState(null);
