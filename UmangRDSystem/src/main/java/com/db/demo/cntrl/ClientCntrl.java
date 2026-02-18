@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.db.demo.entity.Client;
 import com.db.demo.repo.ClientRepo;
 import com.db.demo.service.ClientService;
-
+   
 @RestController
 @RequestMapping("/clients")
 public class ClientCntrl {

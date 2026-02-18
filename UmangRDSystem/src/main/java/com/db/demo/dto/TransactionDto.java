@@ -6,7 +6,7 @@ public interface TransactionDto {
 	
 	    double getRdamount();
 	    boolean isActive();
-
+   
 	   
 	    int getTid();
 	    int getCid();
